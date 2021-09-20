@@ -1,0 +1,18 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+a {
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  border-bottom: 2px solid #361111;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
